@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bignate X | Front End Developer</title>
+    
+    <!-- 👇 NEW: Custom "BX" Favicon (Matches your accent color!) 👇 -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2300d2ff%22/><text x=%2250%22 y=%2254%22 font-family=%22Arial, sans-serif%22 font-weight=%22bold%22 font-size=%2245%22 fill=%22%230f0f11%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22>BX</text></svg>">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Bignate <span>X</span></div>
+        <ul class="nav-links">
+            <li><a href="#" data-target="home" class="active-link">Home</a></li>
+            <li><a href="#" data-target="about">About</a></li>
+            <li><a href="#" data-target="skills">Skills</a></li>
+            <li><a href="#" data-target="projects">Projects</a></li>
+            <li><a href="#" data-target="contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn" id="menu-btn"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- HOME PAGE -->
+        <section id="home" class="page-section active">
+            <div class="hero-content">
+                <h4>Hello, World! I am</h4>
+                <h1>Bignate <span>X</span></h1>
+                <h3>Creative Front End Developer</h3>
+                <p>I build interactive, responsive, and beautiful web experiences.</p>
+                <a href="#" data-target="projects" class="btn nav-redirect">View My Work</a>
+            </div>
+        </section>
+
+        <!-- ABOUT PAGE -->
+        <section id="about" class="page-section standard-bg">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-content">
+                    <p>Hi, I'm <strong>Bignate X</strong>, a passionate Front End Developer dedicated to creating clean, user-friendly, and highly responsive web applications. I bridge the gap between design and technology, turning ideas into pixel-perfect reality.</p>
+                    <br>
+                    <p>When I'm not coding, I'm constantly learning new web technologies to stay ahead of the curve and deliver professional-grade products.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS PAGE -->
+        <section id="skills" class="page-section standard-bg">
+            <div class="container">
+                <h2 class="section-title">My <span>Skills</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="fab fa-html5"></i><p>HTML5</p></div>
+                    <div class="skill-card"><i class="fab fa-css3-alt"></i><p>CSS3 / SCSS</p></div>
+                    <div class="skill-card"><i class="fab fa-js"></i><p>JavaScript</p></div>
+                    <div class="skill-card"><i class="fab fa-react"></i><p>React.js</p></div>
+                    <div class="skill-card"><i class="fab fa-git-alt"></i><p>Git & GitHub</p></div>
+                    <div class="skill-card"><i class="fas fa-mobile-alt"></i><p>Responsive Design</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS PAGE -->
+        <section id="projects" class="page-section standard-bg">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-img bg-1"></div>
+                        <div class="project-info">
+                            <h3>E-Commerce UI</h3>
+                            <p>A modern, fully responsive e-commerce storefront built with HTML, CSS, and JS.</p>
+                            <a href="#" class="btn-small">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img bg-2"></div>
+                        <div class="project-info">
+                            <h3>Dashboard App</h3>
+                            <p>A sleek admin dashboard featuring custom CSS grid layouts and interactive charts.</p>
+                            <a href="#" class="btn-small">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img bg-3"></div>
+                        <div class="project-info">
+                            <h3>Portfolio Template</h3>
+                            <p>A customizable, animated portfolio template for creative professionals.</p>
+                            <a href="#" class="btn-small">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT PAGE -->
+        <section id="contact" class="page-section standard-bg">
+            <div class="container">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <p class="contact-subtitle">Have a project in mind or want to collaborate? Let's talk!</p>
+                
+                <div class="social-links">
+                    <a href="https://github.com/nt6592147-commits" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:nt6592147@gmail.com" title="Email Me"><i class="fas fa-envelope"></i></a>
+                    <a href="https://wa.me/2349129607331" target="_blank" title="WhatsApp Me"><i class="fab fa-whatsapp"></i></a>
+                </div>
+
+                <a href="https://wa.me/2349129607331?text=Hello%20Bignate%20X!%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." class="btn" target="_blank">Say Hello on WhatsApp</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Bignate X. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
